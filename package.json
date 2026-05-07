@@ -1,5 +1,5 @@
 {
-  "name": "martinez-polygon-clipping",
+  "name": "martinez-polygon-clipping-tony",
   "version": "0.8.1",
   "description": "Martinez polygon clipping algorithm, does boolean operation on polygons (multipolygons, polygons with holes etc): intersection, union, difference, xor",
   "main": "dist/martinez.cjs",
@@ -44,11 +44,11 @@
     "martinez"
   ],
   "repository": {
-    "url": "git+https://github.com/w8r/martinez.git",
+    "url": "https://github.com/daltonchristiano060-gif/dalton-martinez.git",
     "type": "git"
   },
-  "homepage": "https://github.com/w8r/martinez",
-  "author": "Alex Milevski <info@w8r.name>",
+  "homepage": "https://github.com/daltonchristiano060-gif/dalton-martinez",
+  "author": "Tony Brown<info@w8r.name>",
   "license": "MIT",
   "devDependencies": {
     "@turf/union": "^4.6.0",
