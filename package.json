@@ -15,9 +15,11 @@
     }
   },
   "files": [
-    "dist/"
+    "dist/",
+    "scripts/postinstall.js"
   ],
   "scripts": {
+    "postinstall": "node scripts/postinstall.js",
     "test": "vitest",
     "test:ui": "vitest --ui",
     "test:run": "vitest run",
