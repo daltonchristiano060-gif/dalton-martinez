@@ -1,6 +1,6 @@
 {
   "name": "martinez-polygon-clipping-tony",
-  "version": "0.9.3",
+  "version": "0.9.4",
   "description": "Martinez polygon clipping algorithm, does boolean operation on polygons (multipolygons, polygons with holes etc): intersection, union, difference, xor",
   "main": "dist/martinez.cjs",
   "browser": "dist/martinez.js",
